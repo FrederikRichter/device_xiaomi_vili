@@ -24,4 +24,8 @@ git clone https://github.com/AOSP-for-vili/vendor_xiaomi_sm8350-common.git -b li
 echo 'Cloning meme camera'
 git clone https://github.com/AOSP-for-vili/vendor_xiaomi_camera.git vendor/xiaomi/camera
 
+# Firmware
+echo 'Cloning firmware'
+git clone https://gitlab.com/0mar99/vendor-xiaomi-vili-firmware.git vendor/xiaomi/vili-firmware
+
 echo 'delete vendorsetup.sh from device tree once this is done'
