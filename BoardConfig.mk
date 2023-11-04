@@ -40,7 +40,8 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Vibrator
-SOONG_CONFIG_xiaomiSm8350Vars_vibrator_use_effect_stream := true
+TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.xiaomi
+TARGET_QTI_VIBRATOR_USE_EFFECT_STREAM := true
 
 # Include proprietary files
 include vendor/xiaomi/vili/BoardConfigVendor.mk
