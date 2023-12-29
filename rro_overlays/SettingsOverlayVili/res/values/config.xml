@@ -9,4 +9,7 @@
 
     <!-- Wheater to show Min Resfresh Rate Switch feature in Display Settings -->
     <bool name="config_show_min_refresh_rate_switch">true</bool>
+
+    <!-- DerpFest Maintainer -->
+    <string name="derpfest_maintainer">0mar</string>
 </resources>

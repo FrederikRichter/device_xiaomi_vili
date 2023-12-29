@@ -9,6 +9,18 @@ $(call inherit-product, device/xiaomi/vili/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# DerpFest Flags
+DERPFEST_BUILD_TYPE := Official
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Gapps Flag
+WITH_GAPPS := true
+
+# Extras
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := vili
