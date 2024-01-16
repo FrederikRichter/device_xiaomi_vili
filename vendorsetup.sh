@@ -25,4 +25,11 @@ git clone https://github.com/AOSP-for-vili/vendor_xiaomi_sm8350-common.git -b li
 echo 'Cloning meme camera'
 git clone https://github.com/AOSP-for-vili/vendor_xiaomi_camera.git -b 15-qpr2 vendor/xiaomi/camera
 
+# Leica patch
+echo 'Adding Leica camera patch'
+cd frameworks/base
+wget https://raw.githubusercontent.com/xiaomi-haydn-devs/Patch-Haydn/14/Leicamera/0001-Add-backwards-compatible-CaptureResultExtras-constructor.patch
+patch -p1 <0001-Add-backwards-compatible-CaptureResultExtras-constructor.patch
+cd ../..
+
 echo 'delete vendorsetup.sh from device tree once this is done'
