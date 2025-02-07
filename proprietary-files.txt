@@ -784,7 +784,7 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
+vendor/etc/thermal-normal.conf|076f09a6fa8e2b071911ddbe099f219eaa920fd6
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
