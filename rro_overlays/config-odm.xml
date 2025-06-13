@@ -1,0 +1,9 @@
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<config>
+    <overlay package="com.android.nfc.overlay.vili" mutable="false" enabled="true" />
+    <overlay package="com.android.providers.settings.overlay.vili" mutable="false" enabled="true" />
+    <overlay package="com.android.wifi.resources.overlay.vili" mutable="false" enabled="true" />
+</config>
