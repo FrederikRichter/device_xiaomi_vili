@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiOverlayLisaGL",
-    device_specific: true
+    name: "WifiOverlayVili",
+    device_specific: true,
 }

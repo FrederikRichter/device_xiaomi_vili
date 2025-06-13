@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderOverlayVili",
+    name: "SettingsOverlayVili",
     device_specific: true,
 }
